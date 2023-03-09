@@ -15,9 +15,9 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="mx-auto w-fit gap-2 flex flex-col justify-around items-center">
-  <article class="border-2 flex flex-col md:flex-row">
-    <div class="bg-gradient-to-t from-light-royal-blue to-light-slate-blue p-6 w-fit rounded-br-lg rounded-bl-lg flex flex-col items-center">
+<body class="mx-auto gap-2 flex flex-col justify-center h-screen items-center">
+  <article class="flex flex-col md:flex-row shadow-[0px_1px_5px_5px] shadow-gray-300 rounded-lg">
+    <div class="bg-gradient-to-t from-light-royal-blue to-light-slate-blue p-6 w-fit md:rounded-lg rounded-br-lg rounded-bl-lg flex flex-col items-center">
       <h3 class="text-light-lavender text-xl my-4">Your Result</h3>
       <div class="rounded-full bg-gradient-to-b from-violet-blue to-persian-blue shadow-sm my-2 text-white text-center p-10 text-2xl font-bold flex flex-col">
         <span class="text-6xl">76</span>
@@ -31,32 +31,40 @@
       
       <h2 class="text-lg font-semibold text-dark-gray-blue md:w-10/12 md:self-center">Summary</h2>
       <div class="py-[20px] rounded-xl bg-light-red/20 mt-4 flex px-4 justify-between md:w-10/12 md:self-center">
-        <div class="flex">
+        <div class="flex gap-2">
           <img src="./assets/images/icon-reaction.svg" />
           <h2 class="text-light-red">Reaction</h2>
         </div>
-        <span class="justify-self-end"><strong>80</strong> / 100</span>
+        <span class="justify-self-end text-gray-500"><strong class="text-black">80</strong> / 100</span>
       </div>
-      <div class="py-[20px] rounded-xl bg-orangey-yellow/20 mt-4 flex px-4 gap-2 md:w-10/12 md:self-center">
-        <img src="./assets/images/icon-memory.svg" />
-        <h2 class="text-orangey-yellow">Memory</h2>
+      <div class="py-[20px] rounded-xl bg-orangey-yellow/20 mt-4 flex px-4 gap-2 justify-between md:w-10/12 md:self-center">
+        <div class="flex gap-2">
+          <img src="./assets/images/icon-memory.svg" />
+          <h2 class="text-orangey-yellow">Memory</h2>
+        </div>
+        <span class="justify-self-end text-gray-500"><strong class="text-black">92</strong> / 100</span>
       </div>
-      <div class="py-[20px] rounded-xl bg-green-teal/20 mt-4 px-4 flex gap-2 md:w-10/12 md:self-center">
-        <img src="./assets/images/icon-verbal.svg" />
-        <h2 class="text-green-teal">Verbal</h2>
+      <div class="py-[20px] rounded-xl bg-green-teal/20 mt-4 px-4 flex gap-2 md:w-10/12 justify-between md:self-center">
+        <div class="flex gap-2">
+          <img src="./assets/images/icon-verbal.svg" />
+          <h2 class="text-green-teal">Verbal</h2>
+        </div>
+        <span class="justify-self-end text-gray-500"><strong class="text-black">61</strong> / 100</span>
       </div>
-      <div class="py-[20px] rounded-xl bg-cobalt-blue/20 my-4 px-4 flex gap-2 md:w-10/12 md:self-center">
-        <img src="./assets/images/icon-visual.svg" />
-        <h2 class="text-cobalt-blue">Visual</h2>
+      <div class="py-[20px] rounded-xl bg-cobalt-blue/20 my-4 px-4 flex gap-2 md:w-10/12 justify-between md:self-center">
+        <div class="flex gap-2">
+          <img src="./assets/images/icon-visual.svg" />
+          <h2 class="text-cobalt-blue">Visual</h2>
+        </div>
+        <span class="justify-self-end text-gray-500"><strong class="text-black">72</strong> / 100</span>
       </div>
-      <button class="bg-dark-gray-blue p-2 rounded-xl text-white font-semibold md:w-10/12 md:self-center">Continue</button>
+      <button class="bg-dark-gray-blue p-2 shadow-[0px_3px_5px_5px] shadow-gray-300 rounded-xl text-white font-semibold md:w-10/12 md:self-center">Continue</button>
     </div>
   </article>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/crissmejias">Cristhian Mejias Serrano</a>.
+    Coded by <a href="https://github.com/crissmejias" target="_blank">Cristhian Mejias Serrano</a>.
   </div>
-  <script src=""></script>
 </body>
 </html>
