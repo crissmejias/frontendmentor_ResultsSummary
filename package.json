@@ -1,0 +1,14 @@
+{
+  "name": "results-summary-component",
+  "version": "1.0.0",
+  "description": "Results summary component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
